@@ -7,7 +7,7 @@ This report presents the development of an ETL Pipeline system on the AWS Cloud 
 
 # (Phase 1): Extract - Transform - Load (ETL) (Project focus)
 **The Analysis And Forecast Of Perfume Demand Project:** requires data on products, customers and purchase information. For the project we aggregate data from different sources from python's faker library, API and kaggle.
-![image](https://github.com/user-attachments/assets/b0d0e145-33bd-4d8c-a865-a4e3d3cae0e6)
+![etl-process-extract-transform-load-1](https://github.com/user-attachments/assets/0b96e37a-0af1-40e4-bb29-19c7b0da4754)
 # (Phase 2): Overview and Forecasting 
 **Visualization and Forecasting for Project:** Here we use a web framework Streamlit to help us present the results of the report and forecast. In Streamlit, users can interact with the chart at will and it can work online near realtime.
 ![image](https://github.com/user-attachments/assets/1b1338ec-ea74-4192-a569-ca26519daaf0)
