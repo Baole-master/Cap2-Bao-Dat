@@ -1,5 +1,5 @@
 
-# Analysis And Forecast Of Perfume Demand
+# Xậy dựng hệ ETL trên nền tăng AWS Cloud
 ![FRAMEWORK](https://github.com/user-attachments/assets/a694c5fc-accf-432b-bf9e-dcbe28298515)
 With the project “**Analysis & Forecasting Market Demand and Optimizing the Perfume Supply Chain**”, our goal is to use the business’s own data to
 predict product demand, help optimize the import process, minimize unnecessary inventory
