@@ -1,11 +1,8 @@
 
 # Xậy dựng hệ ETL trên nền tăng AWS Cloud
 ![0001-introduction](https://github.com/user-attachments/assets/feef186c-aa78-4ddc-9e33-a608fcd0c51b)
-With the project “**Analysis & Forecasting Market Demand and Optimizing the Perfume Supply Chain**”, our goal is to use the business’s own data to
-predict product demand, help optimize the import process, minimize unnecessary inventory
-and at the same time increase efficiency in supply chain management.
-This report not only provides specific analysis of market demand, but also
-proposes solutions for applying data science to create long-term competitive advantages for businesses in the perfume business.
+This report presents the development of an ETL Pipeline system on the AWS Cloud platform, aiming to automate the processes of data collection, processing, and analysis to support businesses in optimizing their strategic decisions. The system consists of three main stages: extracting data from PostgreSQL and other sources to store in Amazon S3; transforming data using AWS Glue through steps such as cleaning, standardizing, and processing; and finally, loading the processed data into Amazon Redshift for analysis and reporting. Tools such as AWS Glue, Amazon Redshift, Streamlit, and Tableau are utilized to manage data and generate visual reports, enabling businesses to make quick and accurate decisions. The results demonstrate that the ETL system not only fully automates the workflow but also ensures high efficiency in handling large datasets, supports real-time analytics, and meets the scalability demands of enterprises.
+
 # (Phase 1): Extract - Transform - Load (ETL) (Project focus)
 **The Analysis And Forecast Of Perfume Demand Project:** requires data on products, customers and purchase information. For the project we aggregate data from different sources from python's faker library, API and kaggle.
 ![image](https://github.com/user-attachments/assets/b0d0e145-33bd-4d8c-a865-a4e3d3cae0e6)
