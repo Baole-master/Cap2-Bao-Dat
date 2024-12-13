@@ -1,3 +1,0 @@
-staff_id,picture,first_name,last_name,email,active,store_address,store_district,store_city,store_country,store_postal_code,store_phone
-1,\x89504e470d0a5a0a,Mike,Hillyer,Mike.Hillyer@sakilastaff.com,t,47 MySakila Drive,Alberta,Lethbridge,Canada,,
-2,,Jon,Stephens,Jon.Stephens@sakilastaff.com,t,28 MySQL Boulevard,QLD,Woodridge,Australia,,
