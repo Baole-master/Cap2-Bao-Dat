@@ -4,17 +4,21 @@
 
 This report presents the development of an ETL Pipeline system on the AWS Cloud platform, aiming to automate the processes of data collection, processing, and analysis to support businesses in optimizing their strategic decisions. The system consists of three main stages: extracting data from PostgreSQL and other sources to store in Amazon S3; transforming data using AWS Glue through steps such as cleaning, standardizing, and processing; and finally, loading the processed data into Amazon Redshift for analysis and reporting. Tools such as AWS Glue, Amazon Redshift, Streamlit, and Tableau are utilized to manage data and generate visual reports, enabling businesses to make quick and accurate decisions. The results demonstrate that the ETL system not only fully automates the workflow but also ensures high efficiency in handling large datasets, supports real-time analytics, and meets the scalability demands of enterprises.
 
+
 # (Phase 1): Extract - Transform - Load (ETL) (Project focus)
 **The Analysis And Forecast Of Perfume Demand Project:** requires data on products, customers and purchase information. For the project we aggregate data from different sources from python's faker library, API and kaggle.
 ![etl-process-extract-transform-load-1](https://github.com/user-attachments/assets/0b96e37a-0af1-40e4-bb29-19c7b0da4754)
+
 # (Phase 2): Overview and Forecasting 
 **Visualization and Forecasting for Project:** Here we use a web framework Streamlit to help us present the results of the report and forecast. In Streamlit, users can interact with the chart at will and it can work online near realtime.
 ![download](https://github.com/user-attachments/assets/a0fd844a-418e-4ea5-ac04-cbfd1bf1ea3c)
+
 # Team members
 * **Team Leader/Analytics Engineer/BI Engineer:** Oversee the entire project, planning and support on both technical and non-technical aspects.
   * [Lê Ngọc Bảo]: Data Science & Business Analytics at DUE
 * **Other members:** Conduct data discovery and documentation, uncover business insights and provide client-driven recommendations.
   * [Nguyễn Sỹ Tiến Đạt]: Data Science & Business Analytics at DUE
+
 # About the data
 ## Data Attributes
 ### Category
@@ -162,7 +166,7 @@ This report presents the development of an ETL Pipeline system on the AWS Cloud 
 - **Many-to-One** with `Actor`.
 ### Actor
 - **One-to-Many** with `Film Actor`.
+  
 # Forecast And Business Plan Proposal
 
-# Model forecasting
 
