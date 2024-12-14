@@ -118,6 +118,9 @@ This report presents the development of an ETL Pipeline system on the AWS Cloud 
 - **last_update**: Timestamp of the last update.
 ---
 ## Data Relationships
+
+![7d320f3d-05ed-4f47-b73b-3f3cb87bea75](https://github.com/user-attachments/assets/72713584-8631-47f3-be52-ffbd393c4ff4)
+
 ### Category
 - **Many-to-Many** with `Film` via `Film Category`.
   - Example: Action films like *Die Hard* or *Mad Max*.
@@ -167,6 +170,60 @@ This report presents the development of an ETL Pipeline system on the AWS Cloud 
 ### Actor
 - **One-to-Many** with `Film Actor`.
   
-# Forecast And Business Plan Proposal
+# ETL Processing Flow Diagram Integrating Data From Multiple Sources
+
+![etl](https://github.com/user-attachments/assets/bfba7552-deaa-45c2-86b4-47ed676165bb)
+
+## Overview
+
+This ETL pipeline is built to process raw data stored in S3 buckets, clean and transform it, and prepare it for downstream applications. The pipeline automates tasks such as schema normalization, SQL-based calculations, and data aggregation.
+
+Key features:
+- **Scalable:** Handles large datasets across multiple S3 buckets.
+- **Configurable:** Allows flexibility in transformations using SQL.
+- **Efficient:** Optimized for cloud-based data pipelines.
+
+---
+
+## Workflow Description
+
+The ETL pipeline consists of the following steps:
+1. **Extract:** Connects to multiple S3 buckets containing raw data such as customer details, transactions, and product catalogs.
+2. **Transform:** Processes the extracted data through schema adjustments, SQL queries, and data merging.
+3. **Load:** Saves the transformed data into a target S3 bucket for storage or analytics.
+
+---
+
+## Data Sources
+
+The pipeline works with the following data sources:
+- **S3 Bucket 1:** Customer details (e.g., name, address, email).
+- **S3 Bucket 2:** Product catalog with categories and descriptions.
+- **S3 Bucket 3:** Transaction logs including payments and orders.
+- **S3 Bucket 4-8:** Additional data like shipping details, user activity logs, etc.
+
+---
+
+## Data Transformation Steps
+
+The transformation process involves:
+1. **Schema Adjustment:** Aligns data from multiple sources to a common schema.
+2. **SQL Query Processing:** Performs data cleaning, aggregation, and calculations such as:
+   - Joining customer data with transaction logs.
+   - Calculating total sales by category or region.
+   - Removing duplicate or invalid records.
+3. **Filtering and Selecting:** Retains only relevant fields and records.
+4. **Aggregation:** Combines data from multiple sources for unified analysis.
+
+---
+
+## Data Target
+
+The transformed data is saved to a final S3 bucket:
+- **Target:** Amazon S3 Bucket
+- **Structure:** Organized by categories and regions for efficient querying.
+- **Format:** CSV or Parquet for analytics compatibility.
+
+---
 
 
